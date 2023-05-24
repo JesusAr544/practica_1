@@ -1,0 +1,33 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+#contenedor{
+  background-color: #62a0a0;
+   width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.cuadro{
+    width: 100vh;
+    background-color: #fff;
+}
+
+.cuadro:first-child {
+    background-color: #00a403;
+}
+.cuadro:last-child {
+    background-color: red;
+}
+
+.cuadro:nth-child(2) {
+    background-color: #ffffff;
+    display: flex;
+  align-items: center;
+    justify-content: center;
+}
+.cuadro .aguila {
+    width: 70%;
+    height: 50%;
+}
