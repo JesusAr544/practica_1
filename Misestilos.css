@@ -1,0 +1,27 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.bandera{
+  
+   width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.bandera:first-child {
+    background-color: #00a403;
+}
+.bandera:last-child {
+    background-color: red;
+}
+
+.bandera:nth-child(2) {
+    background-color: #ffffff;
+    display: flex;
+  align-items: center;
+    justify-content: center;
+}
+.bandera .aguila {
+    width: 70%;
+    height: 50%;
+}
